@@ -30,3 +30,10 @@
     width:300px;
     height:100px;
   }
+
+<style>
+  .background {
+    background: url('file:///images/chicago.jpg') no-repeat center center fixed; 
+    background-size: cover
+  }
+</style>
