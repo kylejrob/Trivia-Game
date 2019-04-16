@@ -13,13 +13,12 @@
   }
 
   body {
-      color: black;
+      color: red;
       font-size: 200%;
       font-weight: bold;
       font-style: initial;
       font-family: Arial, Helvetica, sans-serif;
-      color: black;
-      text-shadow: 1px 1px white;
+      text-shadow: 1px 1px red;
   }
 
   #buttons{
@@ -29,4 +28,9 @@
   button{
     width:300px;
     height:100px;
+  }
+
+  .background {
+    background: url('file:///images/chicago.jpg') no-repeat center center fixed; 
+    background-size: cover
   }
